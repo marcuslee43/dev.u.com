@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
 import Header from '@/components/Header'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
-import VerifyEmailClient from './VerifyEmailClient'
+import VerifyEmailClient from '../../components/VerifyEmailClient'
 
 export default function VerifyEmail() {
   return (
