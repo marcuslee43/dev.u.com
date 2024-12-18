@@ -29,7 +29,7 @@ export async function POST(request: Request) {
 
       return NextResponse.json({ message: 'Signup successful', user })
     }
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'An unexpected error occurred' }, { status: 500 })
   }
 }

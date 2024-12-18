@@ -36,7 +36,7 @@ export default function VerifyEmailClient() {
         setStatus('error')
         setError(errorData.error || 'Failed to verify email')
       }
-    } catch (error) {
+    } catch {
       setStatus('error')
       setError('An unexpected error occurred')
     }

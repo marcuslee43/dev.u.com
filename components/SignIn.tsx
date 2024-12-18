@@ -27,7 +27,7 @@ export default function SignIn() {
 
       router.push('/dashboard')
     } catch (error) {
-      setError(error.message)
+      setError((error as Error).message)
     } finally {
       setIsLoading(false)
     }
@@ -46,7 +46,7 @@ export default function SignIn() {
       })
       if (error) throw error
     } catch (error) {
-      setError(error.message)
+      setError((error as Error).message)
       setIsLoading(false)
     }
   }
@@ -98,7 +98,7 @@ export default function SignIn() {
       </CardContent>
       <CardFooter>
         <p className="text-sm text-center w-full">
-          Don't have an account? <Link href="/signup" className="text-primary hover:underline">Sign Up</Link>
+          Don&apos;t have an account? <Link href="/signup" className="text-primary hover:underline">Sign Up</Link>
         </p>
       </CardFooter>
     </Card>
