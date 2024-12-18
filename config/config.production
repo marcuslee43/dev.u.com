@@ -1,0 +1,11 @@
+export const config = {
+  TEALIUM_IQ: '//tags.tiqcdn.com/utag/unitedairlines/united-tmn/prod/utag.js',
+  SECURITI_IQ: '//cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js',
+  SECURITI_IQ_TENANT_UUID: '31270bbd-6025-4430-a211-12fb9c5112dd',
+  SECURITI_IQ_DOMAIN_UUID: '4ec09807-d94a-418c-98ee-4a540d2c8109',
+  SECURITI_IQ_BACKEND_URL: 'https://app.securiti.ai',
+  SECURITI_IQ_STAGING_MODE: 'false',
+  SECURITI_PREF_SCRIPT: 'https://cdn-prod.securiti.ai/consent/auto_blocking/31270bbd-6025-4430-a211-12fb9c5112dd/4ec09807-d94a-418c-98ee-4a540d2c8109.js',
+  FROM_EMAIL: 'noreply@kinectivemedia.com',
+  COMPANY_EMAIL: 'kinectivemediasales@united.com'
+};
